@@ -4,12 +4,13 @@
 The first thing to do when starting a new Jupyter Notebook is to import the modules needed to get your data and perform the analysis.
 In this case, the modules imported are Pandas, MatPlotLib and Seaborn.
 
-~~~~
+```python
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
-~~~~
+```
+
 Sometimes, Jupyter Notebooks have a display requirement. So in order to visualize the graphs inline in the Jupyter Notebook, we will use this magic function: `%matplotlib inline`
 
 ### 1.2. Read Data Files
@@ -18,39 +19,38 @@ Once the modules have been imported, it is time to import data. Pandas can read 
 
 - Reading .csv files
 
-~~~~
+```python
 df = pd.read_csv('my_dataset.csv', sep=',')
-~~~~
+```
 
 - Reading excel files
 
-~~~~
+```python
 xls_df = pd.read_excel('my_dataset.xls', 'Sheet1')
-~~~~
+```
 
 - Reading .json files
 
-~~~~
+```python
 json_df = pd.read_json('my_dataset.json', orient='columns')
-~~~~
+```
 
 - Reading .html files
 
-~~~~
+```python
 html_df = pd.read_html('https://page.com/with/table.html') [0]
-~~~~
+```
 
 - Reading from SQL tables
 
-~~~~
+```python
 import urllib
 params = urllib.parse.quote_plus("DRIVER={SQL Server Native Client 10.0};SERVER=dagger;DATABASE=test;UID=user;PWD=password")
-~~~~
-~~~~
+
 from sqlalchemy import create_engine
 engine = create_engine('mssql+pyodbc://user:password@server/database')
 sql_df = pd.read_sql_table('my_table', engine)
-~~~~
+```
 
 ##### For further reading:
 -  [Read csv](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)
@@ -63,18 +63,18 @@ sql_df = pd.read_sql_table('my_table', engine)
 ### 2.1. Know your Data
 Once we got our dataframe, it is time to get a quick peek at this data by selecting its top or few rows as shown below.
 
-~~~~
+```python
 import pandas as pd
 pokemon_df = pd.read_csv('pokemon/Pokemon.csv')
 pokemon_df.head(13)
-~~~~
+```
 ![pokemon_head](img/head.PNG)
 
 When loading a dataframe, it is always a good idea to see what data type Pandas has assigned each column, with `.dtypes`
 
-~~~~
+```python
 pokemon_df.dtypes
-~~~~
+```
 
 ![pokemon_dtypes](img/dtypes.PNG)
 
@@ -85,25 +85,25 @@ When working with large datasets, it is very common to read-in datasets and ther
 Pandas provides with a few basic methods for mitigating missing data:
 
 - Replace it with a scalar value
-~~~~
+```python
 df.fillna(df.mean())    # Fill with the mean value
 df.fillna(0)            # Fill whith a 0
-~~~~
+```
 
 - Replace it with the immediate, previous, non-NaN value
-~~~~
+```python
 df.fillna(method='ffill')   # Fill the values forward
 df.fillna(method='bfill')   # Fill the values in reverse
-~~~~
+```
 
 - Dropping data
 
 It is always better first try to fill in missing data rather than deleting it. But if everything else fails trying to rectifying nans, it is possible to remove the sample or column completely, so that it no longer negatively impacts the analysis. This is a last resort.
 
-~~~~
+```python
 df = df.dropna(axis=0)    # Remove any row with nans
 df = df.dropna(axis=1)    # Remove any column with nans
-~~~~
+```
 
 ## 3. Choose the right Chart for your Data
 
@@ -143,7 +143,7 @@ In one of the axes, the different categories or modalities of the qualitative or
 Bar Graphs are usually used for comparing magnitudes of different categories or watching the evolution in time of one magnitude.
 
 Using Seaborn, a bar graph can be seen as shown below:
-~~~~
+```python
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -151,7 +151,7 @@ import matplotlib.pyplot as plt
 
 sns.set_style('whitegrid')
 example_one = sns.barplot(x='year', y='major_death', data = df)
-~~~~
+```
 
 ![barPlot](img/barPlot.PNG)
 
@@ -168,7 +168,7 @@ They are useful when the categories are few. If the graph had many variables, it
 ![badExample](img/badExample.PNG)
 
 Using MatPlotLib, you can make a Pie Chart as shown below:
-~~~~
+```python
 import matplotlib.pyplot as plt
 
 # Data to plot
@@ -183,7 +183,7 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 
 plt.axis('equal')
 plt.show()
-~~~~
+```
 
 ![pieChart](img/pieChart.PNG)
 
@@ -194,9 +194,9 @@ Scatterplots enable viewers to look at the relationship between two numeric valu
 
 Using Seaborn, it is easy to make a scatter plot and analyze if there is any relationship between the variables, like a linear regression.
 
-~~~~
+```python
 sns.lmplot(x='Attack', y='HP', data=pokemon_df)
-~~~~
+```
 
 ![regression](img/linearRegression.PNG)
 
@@ -205,7 +205,7 @@ Density maps, or heat maps, calculate spatial concentrations of events or values
 
 #### 3.5.1. Density Map
 
-~~~~
+```python
 import numpy as np
 
 sns.set(style='white')
@@ -221,17 +221,17 @@ x1 = pd.Series(x1, name='Example_X')
 x2 = pd.Series(x2, name='Example_Y')
 
 example_three = sns.jointplot(x1, x2, kind='kde', size=7, space=0)
-~~~~
+```
 
 ![densityMap](img/density.PNG)
 
 #### 3.5.2. Heatmap
 
-~~~~
+```python
 example_four = sns.load_dataset('flights')
 example_four = example_four.pivot('month', 'year', 'passengers')
 display_four = sns.heatmap(example_four)
-~~~~
+```
 
 ![heatmap](img/heatmap.PNG)
 
