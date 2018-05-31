@@ -68,7 +68,7 @@ import pandas as pd
 pokemon_df = pd.read_csv('pokemon/Pokemon.csv')
 pokemon_df.head(13)
 ~~~~
-![pokemon_head](img/head.png)
+![pokemon_head](img/head.PNG)
 
 When loading a dataframe, it is always a good idea to see what data type Pandas has assigned each column, with `.dtypes`
 
@@ -76,7 +76,7 @@ When loading a dataframe, it is always a good idea to see what data type Pandas 
 pokemon_df.dtypes
 ~~~~
 
-![pokemon_dtypes](img/dtypes.png)
+![pokemon_dtypes](img/dtypes.PNG)
 
 ### 2.2. Clean your Data
 
@@ -153,7 +153,7 @@ sns.set_style('whitegrid')
 example_one = sns.barplot(x='year', y='major_death', data = df)
 ~~~~
 
-![barPlot](img/barPlot.png)
+![barPlot](img/barPlot.PNG)
 
 ### 3.3. Pie Charts
 
@@ -165,7 +165,7 @@ The circle represents the totality that we want to observe and each portion, cal
 
 They are useful when the categories are few. If the graph had many variables, it would not provide almost information and it would be practically incomprehensible, as in the following example:
 
-![badExample](img/badExample.png)
+![badExample](img/badExample.PNG)
 
 Using MatPlotLib, you can make a Pie Chart as shown below:
 ~~~~
@@ -185,7 +185,7 @@ plt.axis('equal')
 plt.show()
 ~~~~
 
-![pieChart](img/pieChart.png)
+![pieChart](img/pieChart.PNG)
 
 ### 3.4. Scatter plot
 A scatter plot shows on a Cartesian axis the relationship between two variables. This graph informs us of the degree of correlation between the two variables, that is, it shows us whether the increase or decrease in the values of one of the variables, called the independent variable and which is usually represented on the horizontal axis, alters in some way the values of the other, called dependent variable and that usually represents on the vertical axis.
@@ -198,7 +198,7 @@ Using Seaborn, it is easy to make a scatter plot and analyze if there is any rel
 sns.lmplot(x='Attack', y='HP', data=pokemon_df)
 ~~~~
 
-![regression](img/linearRegression.png)
+![regression](img/linearRegression.PNG)
 
 ### 3.5. Density and Heat Maps
 Density maps, or heat maps, calculate spatial concentrations of events or values. With these, viewers can visualize the distribution of variables as a continuous surface.
@@ -223,7 +223,7 @@ x2 = pd.Series(x2, name='Example_Y')
 example_three = sns.jointplot(x1, x2, kind='kde', size=7, space=0)
 ~~~~
 
-![densityMap](img/density.png)
+![densityMap](img/density.PNG)
 
 #### 3.5.2. Heatmap
 
@@ -233,7 +233,7 @@ example_four = example_four.pivot('month', 'year', 'passengers')
 display_four = sns.heatmap(example_four)
 ~~~~
 
-![heatmap](img/heatmap.png)
+![heatmap](img/heatmap.PNG)
 
 *For further reading about how to represent data in Python:*
 <https://datavizcatalogue.com/>
