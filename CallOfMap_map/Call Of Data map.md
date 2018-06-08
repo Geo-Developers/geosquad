@@ -56,6 +56,7 @@ It is verified that both data sources are linked  and one of the field is remove
 
 1. In order to improve the representation and to have a better mapping , we place on the map [Grids and Grid](http://desktop.arcgis.com/es/arcmap/10.3/map/page-layouts/adding-a-graticule.htm), and in that way meridians parallels are represented.
 
+![t-shirt map](images/callOfData_colorbrewer1.jpg)
 
 ## Conclusion
 The result is a choropleth map where visually a change in the education can be seen in some areas. For us it is a positive idea that countries with a index of a small human development  increased the literacy rate and that is why we are delighted to show it with the selected representation.
