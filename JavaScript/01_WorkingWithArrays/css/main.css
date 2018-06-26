@@ -1,0 +1,21 @@
+html, body, .wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  background-color: lightpink;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.link {
+  color: purple;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+}

@@ -1,0 +1,112 @@
+{;year: 1901;firsName:  Sully;lastName:  Prudhomme;gender: M;language: Francés;}
+{;year: 1902;firsName:  Theodor;lastName:  Mommsen;gender: M;language: Alemán;}
+{;year: 1903;firsName:  Bjørnstjerne;lastName:  Bjørnson;gender: M;language: Noruego;}
+{;year: 1904;firsName:  Frédéric;lastName:  Mistral;gender: M;language: Occitano;}
+{;year: 1904;firsName:  José;lastName:  de Echegaray;gender: M;language: Español;}
+{;year: 1905;firsName:  Henryk;lastName:  Sienkiewicz;gender: M;language: Polaco;}
+{;year: 1906;firsName:  Giosuè;lastName:  Carducci;gender: M;language: Italiano;}
+{;year: 1907;firsName:  Rudyard;lastName:  Kipling;gender: M;language: Inglés;}
+{;year: 1908;firsName:  Rudolf Christoph;lastName:  Eucken;gender: M;language: Alemán;}
+{;year: 1909;firsName:  Selma;lastName:  Lagerlöf;gender: F;language: Sueco;}
+{;year: 1910;firsName:  Paul;lastName:  von Heyse;gender: M;language: Alemán;}
+{;year: 1911;firsName:  Maurice;lastName:  Maeterlinck;gender: M;language: Francés;}
+{;year: 1912;firsName:  Gerhart;lastName:  Hauptmann;gender: M;language: Alemán;}
+{;year: 1913;firsName:  Rabindranath;lastName:  Tagore;gender: M;language: Bengalí;}
+{;year: 1915;firsName:  Romain;lastName:  Rolland;gender: M;language: Francés;}
+{;year: 1916;firsName:  Verner;lastName:  von Heidenstam;gender: M;language: Sueco;}
+{;year: 1917;firsName:  Karl Adolph;lastName:  Gjellerup;gender: M;language: Danés;}
+{;year: 1917;firsName:  Henrik;lastName:  Pontoppidan;gender: M;language: Danés;}
+{;year: 1919;firsName:  Carl;lastName:  Spitteler;gender: M;language: Alemán;}
+{;year: 1920;firsName:  Knut;lastName:  Hamsun;gender: M;language: Noruego;}
+{;year: 1921;firsName:  Anatole;lastName:  France;gender: M;language: Francés;}
+{;year: 1922;firsName:  Jacinto;lastName:  Benavente;gender: M;language: Español;}
+{;year: 1923;firsName:  William Butler;lastName:  Yeats;gender: M;language: Inglés;}
+{;year: 1924;firsName:  Wladyslaw;lastName:  Reymont;gender: M;language: Polaco;}
+{;year: 1925;firsName:  George Bernard;lastName:  Shaw;gender: M;language: Inglés;}
+{;year: 1926;firsName:  Grazia;lastName:  Deledda;gender: F;language: Italiano;}
+{;year: 1927;firsName:  Henri;lastName:  Bergson;gender: M;language: Francés;}
+{;year: 1928;firsName:  Sigrid;lastName:  Undset;gender: F;language: Noruego;}
+{;year: 1929;firsName:  Thomas;lastName:  Mann;gender: M;language: Alemán;}
+{;year: 1930;firsName:  Sinclair;lastName:  Lewis;gender: M;language: Inglés;}
+{;year: 1931;firsName:  Erik Axel;lastName:  Karlfeldt;gender: M;language: Sueco;}
+{;year: 1932;firsName:  John;lastName:  Galsworthy;gender: M;language: Inglés;}
+{;year: 1933;firsName:  Iván;lastName:  Bunin;gender: M;language: Ruso;}
+{;year: 1934;firsName:  Luigi;lastName:  Pirandello;gender: M;language: Italiano;}
+{;year: 1936;firsName:  Eugene;lastName:  O'Neill;gender: M;language: Inglés;}
+{;year: 1937;firsName:  Roger;lastName:  Martin du Gard;gender: M;language: Francés;}
+{;year: 1938;firsName:  Pearl;lastName:  S. Buck;gender: F;language: Inglés;}
+{;year: 1939;firsName:  Frans Eemil;lastName:   Sillanpää;gender: M;language: Finés;}
+{;year: 1944;firsName:  Johannes Vilhelm;lastName:   Jensen;gender: M;language: Danés;}
+{;year: 1945;firsName:  Gabriela;lastName:  Mistral;gender: F;language: Español;}
+{;year: 1946;firsName:  Hermann;lastName:  Hesse;gender: M;language: Alemán;}
+{;year: 1947;firsName:  André;lastName:  Gide;gender: M;language: Francés;}
+{;year: 1948;firsName:  T.;lastName:  S. Eliot;gender: M;language: Inglés;}
+{;year: 1949;firsName:  William;lastName:  Faulkner;gender: M;language: Inglés;}
+{;year: 1950;firsName:  Bertrand;lastName:  Russell;gender: M;language: Inglés;}
+{;year: 1951;firsName:  Pär Fabien;lastName:   Lagerkvist;gender: M;language: Sueco;}
+{;year: 1952;firsName:  François;lastName:  Mauriac;gender: M;language: Francés;}
+{;year: 1953;firsName:  Winston;lastName:  Churchill;gender: M;language: Inglés;}
+{;year: 1954;firsName:  Ernest;lastName:  Hemingway;gender: M;language: Inglés;}
+{;year: 1955;firsName:  Halldór;lastName:  Laxness;gender: M;language: Islandés;}
+{;year: 1956;firsName:  Juan Ramón;lastName:  Jiménez;gender: M;language: Español;}
+{;year: 1957;firsName:  Albert;lastName:  Camus;gender: M;language: Francés;}
+{;year: 1958;firsName:  Borís;lastName:  Pasternak[4];gender: M;language: Ruso;}
+{;year: 1959;firsName:  Salvatore;lastName:  Quasimodo;gender: M;language: Italiano;}
+{;year: 1960;firsName:  Saint-John;lastName:  Perse;gender: M;language: Francés;}
+{;year: 1961;firsName:  Ivo;lastName:  Andric;gender: M;language: Serbocroata;}
+{;year: 1962;firsName:  John;lastName:  Steinbeck;gender: M;language: Inglés;}
+{;year: 1963;firsName:  Giorgos;lastName:  Seferis;gender: M;language: Griego;}
+{;year: 1964;firsName:  Jean-Paul;lastName:  Sartre[5];gender: M;language: Francés;}
+{;year: 1965;firsName:  Mijaíl;lastName:  Shólojov;gender: M;language: Ruso;}
+{;year: 1966;firsName:  Shmuel Yosef;lastName:  Agnon;gender: M;language: Hebreo;}
+{;year: 1966;firsName:  Nelly;lastName:  Sachs;gender: M;language: Alemán;}
+{;year: 1967;firsName:  Miguel Ángel;lastName:  Asturias;gender: M;language: Español;}
+{;year: 1968;firsName:  Yasunari;lastName:  Kawabata;gender: M;language: Japonés;}
+{;year: 1969;firsName:  Samuel;lastName:  Beckett;gender: M;language: Inglés/Francés;}
+{;year: 1970;firsName:  Aleksandr Isaevich;lastName:  Solzhenitsyn;gender: M;language: Ruso;}
+{;year: 1971;firsName:  Pablo;lastName:  Neruda;gender: M;language: Español;}
+{;year: 1972;firsName:  Heinrich;lastName:  Böll;gender: M;language: Alemán;}
+{;year: 1973;firsName:  Patrick;lastName:  White;gender: M;language: Inglés;}
+{;year: 1974;firsName:  Eyvind;lastName:  Johnson;gender: M;language: Sueco;}
+{;year: 1974;firsName:  Harry;lastName:  Martinson;gender: M;language: Sueco;}
+{;year: 1975;firsName:  Eugenio;lastName:  Montale;gender: M;language: Italiano;}
+{;year: 1976;firsName:  Saul;lastName:  Bellow;gender: M;language: Inglés;}
+{;year: 1977;firsName:  Vicente;lastName:  Aleixandre;gender: M;language: Español;}
+{;year: 1978;firsName:  Isaac Bashevis;lastName:  Singer;gender: M;language: Yiddish;}
+{;year: 1979;firsName:  Odysseus;lastName:  Elytis;gender: M;language: Griego;}
+{;year: 1980;firsName:  Czeslaw;lastName:  Milosz;gender: M;language: Polaco;}
+{;year: 1981;firsName:  Elias;lastName:  Canetti;gender: M;language: Alemán;}
+{;year: 1982;firsName:  Gabriel;lastName:  García Márquez;gender: M;language: Español;}
+{;year: 1983;firsName:  William;lastName:  Golding;gender: M;language: Inglés;}
+{;year: 1984;firsName:  Jaroslav;lastName:  Seifert;gender: M;language: Checo;}
+{;year: 1985;firsName:  Claude;lastName:  Simon;gender: M;language: Francés;}
+{;year: 1986;firsName:  Wole;lastName:  Soyinka;gender: M;language: Inglés;}
+{;year: 1987;firsName:  Joseph;lastName:  Brodsky;gender: M;language: Ruso/Inglés;}
+{;year: 1988;firsName:  Naguib;lastName:  Mahfouz;gender: M;language: Árabe;}
+{;year: 1989;firsName:  Camilo José;lastName:  Cela;gender: M;language: Español;}
+{;year: 1990;firsName:  Octavio;lastName:  Paz;gender: M;language: Español;}
+{;year: 1991;firsName:  Nadine;lastName:  Gordimer;gender: F;language: Inglés;}
+{;year: 1992;firsName:  Derek;lastName:  Walcott;gender: M;language: Inglés;}
+{;year: 1993;firsName:  Toni;lastName:  Morrison;gender: F;language: Inglés;}
+{;year: 1994;firsName:  Kenzaburo;lastName:  Oe;gender: M;language: Japonés;}
+{;year: 1995;firsName:  Seamus;lastName:  Heaney;gender: M;language: Inglés;}
+{;year: 1996;firsName:  Wislawa;lastName:  Szymborska;gender: F;language: Polaco;}
+{;year: 1997;firsName:  Dario;lastName:  Fo;gender: M;language: Italiano;}
+{;year: 1998;firsName:  José;lastName:  Saramago;gender: M;language: Portugués;}
+{;year: 1999;firsName:  Günter;lastName:  Grass;gender: M;language: Alemán;}
+{;year: 2000;firsName:  Gao;lastName:  Xingjian;gender: M;language: Chino;}
+{;year: 2001;firsName:  Vidiadhar Surajprasad;lastName:  Naipaul;gender: M;language: Inglés;}
+{;year: 2002;firsName:  Imre;lastName:  Kertész;gender: M;language: Húngaro;}
+{;year: 2003;firsName:  John Maxwell;lastName:  Coetzee;gender: M;language: Inglés;}
+{;year: 2004;firsName:  Elfriede;lastName:  Jelinek;gender: F;language: Alemán;}
+{;year: 2005;firsName:  Harold;lastName:  Pinter;gender: M;language: Inglés;}
+{;year: 2006;firsName:  Orhan;lastName:  Pamuk;gender: M;language: Turco;}
+{;year: 2007;firsName:  Doris;lastName:  Lessing;gender: F;language: Inglés;}
+{;year: 2008;firsName:  Jean-Marie Gustave;lastName:  Le Clézio;gender: M;language: Francés;}
+{;year: 2009;firsName:  Herta;lastName:  Müller;gender: F;language: Rumano/Alemán;}
+{;year: 2010;firsName:  Mario;lastName:  Vargas Llosa;gender: M;language: Español;}
+{;year: 2011;firsName:  Tomas;lastName:  Tranströmer;gender: M;language: Sueco;}
+{;year: 2012;firsName:  Mo;lastName:  Yan;gender: M;language: Chino;}
+{;year: 2013;firsName:  Alice;lastName:  Munro;gender: F;language: Ingles;}
+{;year: 2014;firsName:  Patrick;lastName:  Modiano;gender: M;language: Francés;}
+{;year: 2015;firsName:  Svetlana;lastName:  Alexievich;gender: F;language: Francés;}
